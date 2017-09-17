@@ -5,7 +5,7 @@
         padding-top: 80px;
    }
     &--gutters{
-       padding-right: -65px;
+       margin-right: -65px;
    }
 
    &--gutters-large{
@@ -31,6 +31,11 @@
         padding-right: 45px;
        }
    }
+
+       &__b-margin-until-medium{
+        margin-bottom: 1rem;
+    }
+
    @mixin atMedium{
     &__medium-4{
         float: left;
@@ -53,7 +58,7 @@
         width:63%;
     }
     &__b-margin-until-medium{
-        margin-bottom: 1rem
+        margin-bottom: 0;
     }
    }
 
