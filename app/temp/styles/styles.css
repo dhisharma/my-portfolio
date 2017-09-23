@@ -1348,3 +1348,7 @@ instead edit gulp/templates/sprite*/
     }
     }
 
+.reveal-item{
+    opacity:0;
+}
+
