@@ -1153,7 +1153,7 @@ instead edit gulp/templates/sprite*/
 
 .site-header__logo{
         position:absolute;
-        top:1px;
+        top:0px;
         left:50%;
         -webkit-transform:translateX(-50%) scale(.8);
                 transform:translateX(-50%) scale(.8);
@@ -1350,5 +1350,15 @@ instead edit gulp/templates/sprite*/
 
 .reveal-item{
     opacity:0;
+    -webkit-transition:all 1.5s ease-out;
+    transition:all 1.5s ease-out;
+    -webkit-transform:scale(1.15);
+            transform:scale(1.15);
 }
+
+.reveal-item--is-visible{
+        opacity:1;
+        -webkit-transform:scale(1);
+                transform:scale(1);
+    }
 
