@@ -1,6 +1,8 @@
 .primary-nav{
     &--pull-right{
-        float:right;
+        @mixin atMedium{
+            float:right;
+        }
     }
 
     ul{
@@ -11,14 +13,35 @@
 
     li{
         list-style:none;
-        float:left;
-        padding-right:20px;
-        padding-top: 10px;
+        display:inline-block;
+        padding-right:7px;
+        padding-top:10px;
+        @mixin atMedium{
+           padding-right:20px;
+            float:left;
+           display:block;
+        }
+        li:last-child{
+            padding-right:0px;
+            @mixin atMedium{
+                padding-right:20px;
+            }
+        }
     }
 
     a{
         color:#fff;
         text-decoration:none;
         font-weight:300;
+        background-color:rgba($mainBlue, .9);
+        padding:5px 8px;
+        font-size:.8rem;
+        display:block;
+
+        @mixin atMedium{
+            padding:4px 0;
+            font-size:1rem;
+            background-color:transparent;
+        }
     }
 }
