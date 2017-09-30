@@ -11281,7 +11281,7 @@ var StickyHeader = function () {
         key: 'refreshWaypoints',
         value: function refreshWaypoints() {
             this.lazyImages.on("load", function () {
-                _noframework2.default.refreshAll();
+                _noframework2.default.refreshAll;
             });
         }
     }, {

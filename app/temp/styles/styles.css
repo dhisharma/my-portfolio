@@ -557,6 +557,14 @@ a{
 }
     }
 
+.flexbox .example-element{
+    padding:10px;
+}
+
+.cssanimations .some-other-elements{
+    margin:10px;
+}
+
 .btn{
     background-color:#2f5572;
     color:#fff;
