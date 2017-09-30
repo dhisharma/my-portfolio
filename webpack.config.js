@@ -5,7 +5,7 @@ module.exports =
         Vendor:"./app/assets/scripts/Vendor.js"
     },
     output: {
-        path:__dirname + "/app/temp/scripts",
+        path: "/app/temp/scripts",
         filename:"[name].js"
     },
     module:{
